@@ -1,0 +1,9 @@
+const fName = 'Alex Trew';
+const age = 27;
+const birthDate = new Date(1992, 2, 13);
+const isActive = true;
+const obj = {};
+const ages = [23, 4, 32, 12, 133];
+const names = ['Alex', 'Mai', 'Han'];
+const agesAgain = [23, 444, 223, 1112, 34];
+const pairs = ['Alex', 28];
