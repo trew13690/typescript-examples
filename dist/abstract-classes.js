@@ -5,6 +5,7 @@ class Shape {
 class Circle extends Shape {
     constructor() {
         super();
+        this.circum = 100;
     }
     dimensions() {
         const dim = {
