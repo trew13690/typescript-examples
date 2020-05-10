@@ -6,7 +6,7 @@ interface Dimensions {
 
 
 abstract class Shape {
-
+    protected radius: number; 
     abstract dimensions(): Dimensions;
 
     draw():void {
@@ -15,7 +15,8 @@ abstract class Shape {
 }
 
 class Circle extends Shape{
-
+    
+    
     constructor(){
         super();
     }
@@ -23,7 +24,7 @@ class Circle extends Shape{
      public dimensions(): Dimensions{
          const dim: Dimensions= {
 
-                radius: 0,
+                radius: this.radius,
                 circum: 0, 
          }
         return dim;

@@ -8,7 +8,7 @@ class Circle extends Shape {
     }
     dimensions() {
         const dim = {
-            radius: 0,
+            radius: this.radius,
             circum: 0,
         };
         return dim;
