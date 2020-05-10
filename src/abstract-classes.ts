@@ -7,6 +7,7 @@ interface Dimensions {
 
 abstract class Shape {
     protected radius: number; 
+
     abstract dimensions(): Dimensions;
 
     draw():void {
@@ -17,8 +18,10 @@ abstract class Shape {
 class Circle extends Shape{
     
     
+    private readonly circum: number; 
     constructor(){
         super();
+        this.circum = 100;
     }
 
      public dimensions(): Dimensions{
